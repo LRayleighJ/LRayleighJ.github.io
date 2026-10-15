@@ -118,7 +118,7 @@ Away from the telescope I spend a lot of time behind a camera — mostly aviatio
     <span>A summer afternoon in the Kanas valley, the river holding the sky</span>
   </a>
   <a class="photo" href="/photos/snow-peak-valley.jpg" target="_blank" rel="noopener">
-    <img src="/photos/thumbs/snow-peak-valley.jpg" alt="A wide braided river valley between ochre hills, with snow-covered Qongur Tagh on the horizon. Pamir mountains" loading="lazy">
+    <img src="/photos/thumbs/snow-peak-valley.jpg" alt="A wide braided river valley between ochre hills, with snow-covered Qongur Tagh on the horizon, in the Pamirs" loading="lazy">
     <span>A braided river threading the valley, a snow peak keeping its distance</span>
   </a>
   <a class="photo" href="/photos/clouds-over-the-ridge.jpg" target="_blank" rel="noopener">
