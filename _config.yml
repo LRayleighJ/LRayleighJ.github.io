@@ -196,6 +196,7 @@ exclude:
   - markdown_generator
   - docker-compose.yaml
   - AGENTS.md
+  - CLAUDE.md
 keep_files:
   - .git
   - .svn

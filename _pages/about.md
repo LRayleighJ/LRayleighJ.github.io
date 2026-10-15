@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in astrophysics at the [National Astronomical Observatories, Chinese Academy of Sciences](https://www.nao.cas.cn/) (NAOC) in Beijing, working with Prof. Jie Wang in the [Computational Cosmology Group](https://ccg-naoc.github.io/people.html). I received my B.S. in astronomy and physics from Tsinghua University in 2022.
+I am a Ph.D. candidate in astrophysics at the [National Astronomical Observatories, Chinese Academy of Sciences](https://www.nao.cas.cn/) (NAOC) in Beijing, working with [Prof. Jie Wang](https://nao.cas.cn/jypy/ds/bsds/202204/t20220414_6986175.html) in the [Computational Cosmology Group](https://ccg-naoc.github.io/people.html). I received my B.S. in astronomy and physics from Tsinghua University in 2022.
 
 My research sits between radio cosmology and galaxy formation. I use the Five-hundred-meter Aperture Spherical radio Telescope (FAST) to map the 21 cm emission of neutral hydrogen (HI) over large volumes, cross-correlate those maps with optical galaxy surveys such as DESI, and confront the measurements with cosmological hydrodynamical simulations — the goal being a coherent picture of how much HI the Universe holds, where it lives, and how both change with cosmic time.
 
