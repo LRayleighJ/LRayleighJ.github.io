@@ -10,6 +10,7 @@
 | 顶栏导航 | `_data/navigation.yml` |
 | 首页 | `_pages/about.md` |
 | CV 页 | `_pages/cv.md` |
+| 摄影页 | `_pages/photography.md` + `photos/` |
 | 论文（一篇一个文件） | `_publications/` |
 | 报告 / 会议 | `_talks/` |
 | 头像 | `images/profile.jpg`（方形图片效果最好） |
@@ -52,6 +53,31 @@ git push -u origin master
   具体数值（交叉功率、Ω_HI 约束、各项百分比等）和结果都没有写进网站，`files/` 里也没有放草稿 PDF。
   等正式发表或挂上 arXiv 之后再补数值。
 - `date:` 是按出版年份和卷期推的，排序用；要精确到月份就自己改一下。
+
+## 摄影页怎么加照片
+
+页面是 `_pages/photography.md`，图片放在 `photos/`：
+
+| 路径 | 用途 |
+|---|---|
+| `photos/` | 全尺寸原图（长边 1206px），点缩略图后打开的就是它 |
+| `photos/thumbs/` | 网格里显示的缩略图（长边 800px、质量 68），21 张共约 1.6 MB |
+
+加一张新照片：
+
+1. 原图放进 `photos/`，起一个能当网址用的英文名 —— 文件名就是 URL，
+   比如 `photos/forest-lake.jpg` 对应 `https://lrayleighj.github.io/photos/forest-lake.jpg`
+2. 生成缩略图（`sips` 是 macOS 自带的，不用装东西）：
+
+   ```sh
+   sips -Z 800 --setProperty formatOptions 68 photos/新照片.jpg --out photos/thumbs/新照片.jpg
+   ```
+
+3. 在 `_pages/photography.md` 里复制一段 `<a class="photo">…</a>`，改文件名、`alt` 和说明文字。
+   想换分组就改 `<h2>` 的标题（现在是 Aviation / City and Night / Landscape and Wildlife / Flowers and Details）。
+
+排版由页面里那段 `<style>` 控制：`minmax(165px, 1fr)` 决定一行放几张，`height` 决定缩略图高度。
+缩略图用的是 `object-fit: cover`，所以不同长宽比的照片会被裁成统一尺寸显示 —— **原图不会被裁剪**，点开还是完整的。
 
 ## 注意：上传 PDF 会重新暴露数值
 

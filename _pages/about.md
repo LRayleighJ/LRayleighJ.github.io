@@ -29,4 +29,4 @@ Contact
 - GitHub: [LRayleighJ](https://github.com/LRayleighJ)
 - Address: Computational Cosmology Group, National Astronomical Observatories, CAS, 20A Datun Road, Chaoyang District, Beijing 100101, China
 
-A full record of my education, research experience, publications, and talks is on the [CV page](/cv/).
+A full record of my education, research experience, publications, and talks is on the [CV page](/cv/). Away from work I spend a lot of time behind a camera — mostly aviation, city nights and landscapes; a few frames are on the [photography page](/photography/).
